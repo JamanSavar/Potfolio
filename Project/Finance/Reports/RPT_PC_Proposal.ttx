@@ -1,0 +1,10 @@
+LCNO	String	25	
+LCValue	Number		
+BTBValue	Number		
+PCValueDolar	Number		
+PCValueTK	Number		
+Currancy	String	10	
+Rate	Number		
+BankName	String	100	
+BankAddre	String	300	
+BankCunt	String	50	

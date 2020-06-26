@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="frmMasterPage.master.cs"
+    Inherits="UI_frmMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+     <title>Personal Portfolio of Jaman -  Web Designer</title>
+
+    <meta name="description" content="I'm Jaman, Web designer/front end developer based in Dubai, UAE... I'm passionate about building simple, clean Websites and User Interfaces that are easy to use and beautiful to look at. I do Web Design from the scratch including logo, beautiful website design, W3C Valid XHTML, W3C Valid CSS, iPhone/iPad/Android UI Design and anything that's creative." />
+   
+    <meta name="keywords" content="web design, design, website, development, flashmantra, daatos, psd to HTML, front end development, HTML, CSS, web designer, web developer"/>
+   
+    <meta name="Author" content="iamjaman.com"/>
+
+    <link href="../CSS/CSPortfolio.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../fav/favicon.png" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="mainebody">
+ <form id="Form1" runat="server">
+ <table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+    <!----- Begin: Header---- -->
+    <tr>
+    <td id="header">
+         <div id="nav">
+            <div id="quick-contact">
+                <strong>jaman2mail@gmail.com</strong>
+                <strong class="tel">+88 01719 368485</strong> 
+            </div>
+            <div class="links" id="navigation-list" role="navigation"> 
+            <a href="../UI/frmHome.aspx" class="scroll">Home</a>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+             <a href="../UI/frmAbout.aspx" >About</a>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <a href="../UI/frmWork.aspx" class="scroll">Work</a>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <a href="../UI/frmContact.aspx" class="scroll">Contact</a>
+            </div>
+         </div>
+    </td>
+    </tr>
+    <!----- Begin: master Content---- -->
+    <tr>
+    <td align="center">
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    
+    <!----- Begin: Footer ---- -->
+    <tr>
+    <td id="footer" align="center">
+    <div class="f1">© All Copyright reserved by Jaman personal portfolio.</div>
+    </td>
+    </tr>
+    </table>
+
+</form>
+</body>
+</html>

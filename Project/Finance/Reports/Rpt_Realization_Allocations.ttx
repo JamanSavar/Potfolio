@@ -1,0 +1,11 @@
+Buyer_Name	String	300	
+File_No	String	200	
+LC_No	String	100	
+LC_Value	Number		
+FDBC_No	String	50	
+FDBC_Date	Date		
+FDBC_Value	Number		
+Realize_Date	Date		
+Realize_Value	Number		
+Short_Value	Number		
+Allocation_Val	Number		

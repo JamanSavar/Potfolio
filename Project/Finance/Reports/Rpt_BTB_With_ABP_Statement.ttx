@@ -1,0 +1,20 @@
+FileNo	String	50	
+BTBPercent	Number		
+PCPercent	Number		
+Buyer	String	100	
+ExportLCNo	String	50	
+Invoice_No	String	50	
+InvoiceValue	Number		
+FDBC_No	String	50	
+RealizedValue	Number		
+ShortValue	Number		
+BTBNo	String	50	
+BTBValue	Number		
+ABPNo	String	50	
+ABP_Amount	Number		
+Acceptance_Date	String	10	
+Maturity_date	String	10	
+Pay_Date	String	10	
+SundryAcc	Number		
+Pay_Amount	Number		
+SundryBalance	Number		

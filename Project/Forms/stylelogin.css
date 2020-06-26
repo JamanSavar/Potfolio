@@ -1,0 +1,68 @@
+body{
+	 
+	   background : url('Constants/images/ALogin1.PNG');
+	   background-repeat:no-repeat;
+	   overflow:hidden;
+	 
+	 
+	  width:100%;
+	  height:100%;
+
+
+	  
+   
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#353535;
+
+}
+
+a img{
+	border:none;
+}
+
+
+.hr_line{
+    background-image: url('Constants/images/hr_line.gif'); background-repeat: repeat-x; width:5px; height:5px;
+}
+
+
+.footer_bg{
+    background-image: url('Constants/images/footer_bg.jpg'); background-repeat: repeat-x;  height:90px;
+}
+
+.login_tex{
+	font-size:11.5pt; font-weight:bold;   font:Verdana, Arial, Helvetica, sans-serif; color:Black; font-weight:normal; text-align:left ; 
+	}
+	
+.login_txt_ex{
+	font-size:7.5pt; font:Verdana, Arial, Helvetica, sans-serif; color:#a5a4a4; font-weight:normal; text-align:left; 
+	}
+	
+	
+.input_box{
+	font-size:9pt; font-family:Arial,Helvetica, sans-serif; color:black; background-color:#969FB0; border:#4b4a4a 1px solid; width:200px;
+}
+
+.dd_box{
+	font-size:9pt; font-family:Arial,Helvetica, sans-serif; color:#e7e7e7; background-color:#191919; border:#4b4a4a 1px solid; width:200px;
+}
+
+.check_box{
+	font-size:8pt; font-family:Arial, Helvetica, sans-serif; color:#e7e7e7; background-color:#191919; border:none;
+}
+
+.button { cursor:pointer;
+ border: none; 
+ background: url('Constants/images/sign_in_button.jpg') no-repeat top left; 
+ padding: 2px 8px; 
+ font-family:Arial, Helvetica, sans-serif; 
+ color:#FFFFFF; 
+ font-size:12pt; 
+ font-weight:bold; 
+ width:95px; 
+ height:28px; 
+ }
+ 
+.button:hover
+{color:#f57b20; font-size:12pt;}

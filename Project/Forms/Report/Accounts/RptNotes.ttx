@@ -1,0 +1,9 @@
+code	String	350	
+AccHead	String	350	
+opDebit	Number		
+opCredit	Number		
+cuDebit	Number		
+cuCredit	Number		
+clDebit	Number		
+clCredit	Number		
+groupName	String	500	

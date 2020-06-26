@@ -1,0 +1,11 @@
+Buyer	String	200	
+File_No	String	100	
+LC_No	String	50	
+LC_Value	Number		
+PC_Per	Number		
+BTB_Per	Number		
+BTB_Value	Number		
+PC_Taken_dolar	Number		
+PC_Taken_Taka	Number		
+PC_Value	Number		
+last_Ship_date	Date		

@@ -1,0 +1,13 @@
+BuyerName	String	300	
+FileNo	String	50	
+LCNO	String	30	
+InvoiceNo	String	30	
+InvoiceValue	Number		
+FDBP_No	String	30	
+FDBC_No	String	30	
+OpenDate	Date		
+ExpiryDate	Date		
+CM_Dolar	Number		
+CMTaKa	Number		
+Rate	Number		
+CM_Propose_Dolar	Number		

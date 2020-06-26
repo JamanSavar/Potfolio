@@ -1,0 +1,13 @@
+Buyer	String	300	
+LC_Number	String	50	
+LC_value	Number		
+File_No	String	100	
+BTB_No	String	50	
+BTBValue	Number		
+SupplierName	String	300	
+ABPNo	String	50	
+ABPValue	Number		
+ABPPayment	Number		
+Acceptance_Date	Date		
+Maturity_date	Date		
+Paid_Date	Date		

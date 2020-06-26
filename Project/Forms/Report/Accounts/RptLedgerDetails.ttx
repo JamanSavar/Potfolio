@@ -1,0 +1,8 @@
+Date	Date		
+VoucherId	String	50	
+Particulars	String	350	
+DebitAmount	Number		
+CreditAmount	Number		
+Balance	Number		
+Company	String	2000	
+Description	String	350	

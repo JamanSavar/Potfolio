@@ -1,0 +1,417 @@
+﻿*
+{
+    padding:0px;
+    margin:0px;
+}
+
+div,ul,li,a,fieldset,legend,table,td,th,tr
+{
+    padding:0px;
+    margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+body 
+{	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;	
+	background-color:#666666;
+	
+	/*background : url('Constants/images/bg-pattern.jpg');*/
+	width:100%;
+	height:100%;
+}
+
+
+
+
+.background 
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	
+    background-image: url('Constants/images/bg-pattern.jpg');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    width:100%;
+	height:100%
+}
+
+#div_main
+{
+    width:95%;
+    margin:0 auto;
+    background-color:Black;
+}
+
+#div_main #navigationbar
+{
+    /*background-color:SlateGray;*/
+    background-color:#2f2f2f;
+    height:25px;
+}
+
+#header
+{
+	background-color:#000000;
+    width:100%;
+    height:41px;
+}
+
+#div_bodyContent
+{
+	background-color:#FFFFFF;
+	color:Black;
+    width:100%;
+}
+#hidDivMailSend
+{
+overflow: scroll; 
+background-color: #2f2f2f; 
+color: White; 
+border: 1px solid #C0C0C0; 
+width: 100%; 
+margin-top:5px;
+clear:both;		
+}
+
+#leftSideNavigation
+{
+    background-color:SlateGray;
+    width:0px;
+	padding:0px;
+	margin:0px 5px 0px 0px;	
+	float:left;
+	overflow:auto;
+	height:200px;	
+}
+
+#content {	
+	float:left;	
+	width:100%;
+	background-color:#FFFFFF;
+	/*margin-left:150px;*/
+}
+
+/*a:link, a:visited {
+	color: #cc3300;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: #ff9900;
+	text-decoration: underline;
+}
+*/
+
+
+.TextboxCss
+{	
+   text-align:right;
+   font-weight: bold;
+   padding-right:5px;
+   
+}
+
+
+.GrideTextboxCss
+{	
+   text-align:right;
+   font-weight: bold;
+}
+
+
+
+.GrideTextboxCss2
+{	
+   text-align:center;
+   font-weight: bold;
+}
+
+.GrideTextboxCss3
+{	
+   text-align:center;
+   font-weight: bold;
+   width:70px;
+}
+
+.standardlabel
+{	
+    color:Tomato;
+    font-size: 12px;
+    font-weight: bold;
+    //font-family:Sans-Serif;  
+              
+}
+.standardlabel_1
+{	
+    color:White;
+    font-size: 12px;
+    font-weight: bold;
+    //font-family:Sans-Serif;   
+              
+}
+
+.standardTextBoxAslabel
+{
+color:Tomato;
+font-size: 12px;
+font-weight: bold;
+background-color: #2f2f2f;
+border: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+/*font-family:Sans-Serif;*/
+}
+
+.gridViewHeaderStyle /* Liton */
+{
+	color:White;
+	background-color:Black;
+	padding:2px;
+}
+
+.gridViewStyle /* Liton */
+{
+	color:Black;
+	background-color:Silver;
+	margin-left:5px;
+}
+
+.gridViewAlternateRowStyle /* Liton */
+{
+	background-color:Gainsboro;
+}
+
+.gridViewSelectedRowStyle /* Liton */
+{
+	background-color:DimGray;
+	background-color:White; /* Basher */
+}
+
+
+.headerstyle /* Liton */
+{
+	float :left;
+    font-size: 18px;
+    font-family: Helvatica;
+    color: White;
+    margin-bottom:5px;
+    margin-left:5px;
+    font-weight:bold;
+    width:100%;
+}
+
+.standardButton 
+{
+    width:60px;
+    height:24px;
+    text-align:center;
+    cursor:pointer;
+}
+
+
+
+
+.buttonCSS 
+{
+    width:50px;
+    text-align:center;
+    cursor:pointer;
+}
+	
+/*html>body .standardButton 
+{
+    height:22px;
+    width:62px;   
+    text-align:center;
+    "\"}\"";
+}*/
+	
+
+html>body #sidebar {
+	width: 155px;
+}
+
+.plusButton
+{
+	padding:0px;
+	margin:0px;
+	height:22px;
+	width:30px;
+	font-size:medium;
+	font-weight:bolder;	
+}
+
+#na
+#nav li {
+	display:inline; /* for IE5 and IE6 */
+}
+#nav ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+#nav a:link, #nav a:visited {
+	display: block;
+	width: 99.99%; /* for IE5 */
+	color: #000000;
+	text-decoration: none;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	font-weight: bold;
+}
+#nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #FF3300;	
+}
+
+
+.dynamicMenu {
+    background-color:#E8F4FD;
+    border-color: #004477;
+    border-style: solid;
+    border-width: 1px;
+}
+.dynamicMenuItem
+{
+	font-size:medium;
+    background-color: #E8F4FD;
+    border-color: #004477;
+    border-style: solid;
+    border-width: 0px;
+}
+
+
+#footer 
+{
+   
+    position:relative;
+    top:0px;
+    background-color:#000000;
+    /*min-height:500px;*/
+	/*margin-left: 150px;*/ 
+	/*padding: 0 20px 1.8em 10px;*/
+	border-top: 1px solid #2f2f2f;
+	clear: both;
+	/*left:150px;*/
+}
+
+#footer p {
+	font: normal 0.8em/0.9em verdana, arial, helvetica, sans-serif;
+	color: #666;
+}
+#footer p.left {
+	float: left;
+	clear: left;
+}
+#footer p.right {
+	float: right;
+	clear: right;
+	margin:25px 5px 0px 0px;
+}
+.spacer {
+	clear: both;
+}
+dd, dt {
+	font-size: 0.95em;
+}
+#mainTitle {
+	font-size: 2.0em;
+	font-weight: bold;
+	visibility: hidden;
+}
+.pageTitle {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.itemTitle {
+	border-bottom: 1px solid #a83930;
+	font-size: 1.5em;
+}
+.itemContent {
+	padding-bottom: 1.0em;
+}
+.box {
+    border: solid 1px #a83930;
+}
+.boxFloat {
+    /* border: solid 1px #a83930; */
+    float: left;
+}
+.boxFloatRight {
+    border: solid 1px #a83930;
+    float: right;
+}
+.floatRight {
+    /* border: solid 1px #a83930; */
+    float: right;
+}
+
+
+.hidGridColumn
+{
+    display:none;
+}
+
+
+.wc
+{
+	font-family: Verdana;
+	font-size: small;
+	color: #C0C0C0;
+}
+
+.clientArea {  
+color: #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;
+margin: 0px;
+overflow: auto;
+padding: 1px;
+scrollbar-face-color: #3D3D3D;
+scrollbar-highlight-color: #2f2f2f;
+scrollbar-3dlight-color: #2f2f2f;
+scrollbar-darkshadow-color: #2f2f2f;
+scrollbar-shadow-color: #2f2f2f;
+scrollbar-arrow-color: #000000;
+scrollbar-track-color: #2f2f2f;
+}
+
+.messsageEmptyGridView
+{	
+    color:Tomato;
+    font-size: 16px;
+    font-family:Sans-Serif; 
+    background-color:#2F2F2F; 
+    text-align:center;  
+}
+
+#Home_box_Div
+{
+}
+
+.Home_box
+{
+	width:32%;
+	height:125px;
+	background-color:Black;
+	float:left;
+	display:inline block;
+	color:White;
+	text-align:center;
+	margin:3px;
+	padding-top:30px;
+    border: solid 1px white;
+}
+
+.mf
+{
+	color:Aqua;
+}

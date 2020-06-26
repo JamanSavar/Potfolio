@@ -1,0 +1,13 @@
+BuyerName	String	300	
+FileNo	String	50	
+FDBC_No	String	30	
+FDBP_No	String	30	
+FDBP_Value	Number		
+Adjusted_Value	Number		
+Interest	Number		
+LC_No	String	30	
+LC_Value	Number		
+FDBC_Value	Number		
+Charge	Number		
+Others	Number		
+FDBP_Date	Date		

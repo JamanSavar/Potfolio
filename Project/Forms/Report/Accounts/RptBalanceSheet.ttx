@@ -1,0 +1,7 @@
+level1	String	350	
+level2	String	350	
+code	String	350	
+head	String	350	
+debit	Number		
+credit	Number		
+Serial	String	350	

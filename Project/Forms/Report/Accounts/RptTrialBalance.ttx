@@ -1,0 +1,5 @@
+nodeKey	String	500	
+accountCode	String	50	
+accountHead	String	100	
+debit	Number		
+credit	Number		

@@ -1,0 +1,14 @@
+File_Ref_No	String	50	
+LC_No	String	50	
+trDate	Date		
+Cash_For	String	30	
+Cash_Value	Number		
+Currency	String	10	
+Supplier	String	200	
+Check_No	String	30	
+Bank	String	200	
+VoucherNo	String	30	
+VoucherType	String	50	
+ReceiveBy	String	100	
+Note	String	200	
+CuRate	Number		

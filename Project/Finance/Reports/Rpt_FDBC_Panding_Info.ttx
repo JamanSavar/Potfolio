@@ -1,0 +1,7 @@
+BuyerName	String	250	
+FileNo	String	50	
+LCNO	String	50	
+LC_Value	Number		
+Invoice	String	50	
+Invoice_Value	Number		
+FDBC_No	String	50	

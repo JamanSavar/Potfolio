@@ -1,0 +1,17 @@
+Buyer_Name	String	250	
+File_No	String	50	
+LC_NO	String	30	
+LC_Value	Number		
+BTB_Value	Number		
+BTB_Per	Number		
+PC_Value	Number		
+PC_Per	Number		
+PC_No	String	30	
+PC_Date	Date		
+PC_ExpDate	Date		
+PC_Proposed	Number		
+PC_Approved	Number		
+PC_Adjust	Number		
+FDBC_No	String	30	
+BankCharge	Number		
+BankIntarest	Number		

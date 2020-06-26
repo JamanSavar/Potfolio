@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="frm_MasterPage_Report.master.cs"
+    Inherits="Forms_Accounts_frm_MasterPage_Report" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="pragma" content="no-cache" />
+    <%--<meta http-equiv="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT">--%>
+    <base target="_self" />
+    <title>LC Management Software</title>
+    <link href="../cssSTM.css" rel="stylesheet" type="text/css" media="screen" />
+    <style type="text/css">
+        .dynamicMenuItemStyle
+        {
+            color: White;
+            height: 20px;
+            font-size: 12px;
+            background-color: #2f2f2f;
+            padding: 1px 5px 1px 5px;
+            text-align: left;
+        }
+        .homeLink
+        {
+            text-decoration: none;
+            font-size: 15px;
+            background-color: SlateGray;
+            color: White;
+        }
+        .homeLink a:hover
+        {
+            background-color: Black;
+        }
+        #dialogue
+        {
+            background-color: #2f2f2f;
+        }
+        .staticMenuItemStyle
+        {
+            font-size: 12px;
+            height: 15px;
+            color: White;
+            background: #2f2f2f;
+            border-right: solid 2px White;
+        }
+        .adjustedZIndex
+        {
+            z-index: 1;
+        }
+    </style>
+    <%--  <script type="text/javascript" language="javascript">
+         function disableBackButton()
+         {
+             window.history.forward(-1);
+         }
+    </script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<%--<body onload="func_registerJavascript();" onkeyup="ModifyEnterKeyPressAsTab1();">--%>
+<body>
+    <form id="form1" runat="server" unselectable="off">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="div_main">
+        <div id="header">
+            <asp:ContentPlaceHolder ID="imagePlaceHolder" runat="server">
+                <%--<p>Inventory Management Software</p>--%>
+                <asp:Label ID="Label1" runat="server" Text="ERP Management System" ForeColor="White" Font-Size="20px" Font-Bold="true" Height="30px" Style="text-align: right; " Width="99%" ></asp:Label>
+                <%--<asp:Image ID="Image2" runat="server" Height="41px" Style="float: right" Width="391px" ImageUrl="~/Forms/Constants/Images/software_name.gif" />--%>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="navigationbar">
+            <div style="float: left; width: 267px;">
+             
+                <asp:Menu Visible="false" ID="systemAdminMenu" runat="server" StaticDisplayLevels="2"
+                    DisappearAfter="5000" DataSourceID="systemAdminSiteData" AccessKey="m" EnableViewState="False"
+                    Orientation="Horizontal" MaximumDynamicDisplayLevels="6" StaticMenuItemStyle-CssClass="staticMenuItemStyle"
+                    DynamicHoverStyle-BorderStyle="Solid" DynamicHoverStyle-BorderWidth="1px" DynamicHoverStyle-BackColor="#000000"
+                    DynamicMenuItemStyle-CssClass="dynamicMenuItemStyle" DynamicMenuStyle-CssClass="adjustedZIndex">
+                    <DynamicItemTemplate>
+                        <%# Eval("Text") %>
+                    </DynamicItemTemplate>
+                </asp:Menu>
+                
+                 <asp:Menu Visible="false" ID="MarchandiserMenu" runat="server" StaticDisplayLevels="2"
+                    DisappearAfter="5000" DataSourceID="MarchandiserMenuData" AccessKey="m" EnableViewState="False"
+                    Orientation="Horizontal" MaximumDynamicDisplayLevels="6" StaticMenuItemStyle-CssClass="staticMenuItemStyle"
+                    DynamicHoverStyle-BorderStyle="Solid" DynamicHoverStyle-BorderWidth="1px" DynamicHoverStyle-BackColor="#000000"
+                    DynamicMenuItemStyle-CssClass="dynamicMenuItemStyle" DynamicMenuStyle-CssClass="adjustedZIndex">
+                    <DynamicItemTemplate>
+                        <%# Eval("Text") %>
+                    </DynamicItemTemplate>
+                </asp:Menu>
+                          
+                <asp:Menu Visible="false" ID="StoreMenu" runat="server" StaticDisplayLevels="2"
+                    DisappearAfter="0" DataSourceID="StoreMenuData" AccessKey="m" EnableViewState="False"
+                    Orientation="Horizontal" MaximumDynamicDisplayLevels="6" StaticMenuItemStyle-CssClass="staticMenuItemStyle"
+                    DynamicHoverStyle-BorderStyle="Solid" DynamicHoverStyle-BorderWidth="1px" DynamicHoverStyle-BackColor="#000000"
+                    DynamicMenuItemStyle-CssClass="dynamicMenuItemStyle" DynamicMenuStyle-CssClass="adjustedZIndex">
+                    <DynamicItemTemplate>
+                        <%# Eval("Text") %>
+                    </DynamicItemTemplate>
+                </asp:Menu>
+                
+            </div>
+            <div style="float: right; padding: 0px 5px 0px 0px;">
+                <table>
+                    <tr>
+                        <td>
+                            <asp:Label ID="lbl_fullUserName" runat="server" Text="" Style="color: White;"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:LinkButton runat="server" ID="lnk_logout" Text="Logout" Style="color: White"
+                                OnClick="lnk_logout_Click" CausesValidation="False"></asp:LinkButton>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="div_bodyContent">
+<%--            <asp:UpdatePanel runat="server" ID="masterUpdatePanel">
+                <ContentTemplate>--%>
+                    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+<%--                </ContentTemplate>
+            </asp:UpdatePanel>
+            <asp:UpdateProgress ID="upd_progress" AssociatedUpdatePanelID="masterupdatepanel"
+                runat="server">
+                <ProgressTemplate>
+                    <div style="z-index: 9999; background-color: #666699; filter: alpha(opacity=50);
+                        opacity: 0.7; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%;">
+                        <p style="position: relative; top: 50%; left: 50%; color: white; font-size: larger;
+                            font-weight: bold;">
+                            please wait...</p>
+                    </div>
+                </ProgressTemplate>
+            </asp:UpdateProgress>
+--%>        </div>
+        <div id="footer">
+            <p class="right">
+                <a style="color: White; font-weight:bold;" href="http://www.aims.com/" title="Digital Solution For RMG">Developed By :Excom Fashions Ltd.</a></p>
+            <asp:ContentPlaceHolder runat="server" ID="footerImage">
+                           <asp:Image ID="Image1" runat="server" CssClass="left" ImageUrl="~/Forms/Constants/Images/mondial_logo.jpg"
+                    Width="301" Height="38" AlternateText="image unavailable" />
+            </asp:ContentPlaceHolder>
+            
+            <asp:SiteMapDataSource SiteMapProvider="systemAdminSiteMapProvider" ID="systemAdminSiteData" runat="server" /> 
+            <asp:SiteMapDataSource SiteMapProvider="MarchandiserSiteMapProvider" ID="MarchandiserMenuData" runat="server" />           
+            <asp:SiteMapDataSource SiteMapProvider="StoreSiteMapProvider" ID="StoreMenuData" runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

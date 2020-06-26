@@ -1,0 +1,14 @@
+BuyerName	String	300	
+FileNo	String	50	
+LCNO	String	50	
+LC_Value	Number		
+FDBC_No	Number		
+FDBC_Date	Date		
+Invoice_Value	Number		
+FDBP_No	Number		
+FDBP_Date	Date		
+FDBP_Value	Number		
+Others	Number		
+Invoice	String	50	
+Realiz_Date	Date		
+ReaValu	Number		

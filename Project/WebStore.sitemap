@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="" title="" description="">
+
+    <siteMapNode url="" title="Options" description="">
+      <siteMapNode url="" title="------------------" description=""/>
+        <siteMapNode url="~/MasterSettings/Options/frmUserChangePassword.aspx" title="Change Password" description=""/>
+      <siteMapNode url="" title="---------------------" description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Setting" description="">
+
+      <siteMapNode url="" title="------------------" description=""/>
+        <siteMapNode url="~/MasterSettings/Inventory/frmItemHead.aspx" title="Item Head" description=""/>
+        <siteMapNode url="~/MasterSettings/Inventory/frmItemName.aspx" title="Item Name" description=""/>
+        <siteMapNode url="~/MasterSettings/Inventory/frmDelivaryTo.aspx" title="Delivary To" description=""/>
+        <siteMapNode url="~/MasterSettings/Inventory/frmIssueBy.aspx" title="Issue By" description=""/>
+      <siteMapNode url="" title="------------------" description=""/>
+      
+    </siteMapNode>
+
+
+    <siteMapNode url="" title="Store" description="">
+
+      <siteMapNode url="" title="-----------------------" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmFabricReceive.aspx" title="Fabric Received" description=""/>
+      <siteMapNode url="" title="-----------------------" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmEmployeeInfo.aspx" title="Employee Info" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmItemOpeningBalance.aspx" title="Item Opening Balance" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmItemPurchaseRequisition.aspx" title="Item Requisition" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmItemPurchaseReceived.aspx" title="Item Purchase Received" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmItemIssue.aspx" title="Item Issue" description=""/>
+      <siteMapNode url="" title="-----------------------" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmGeneralChalan.aspx" title="Genarel Challan" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmExportChalan.aspx" title="Export Challan" description=""/>
+      <siteMapNode url="" title="-----------------------" description=""/>
+      <siteMapNode url="~/Inventory/UI/frmGeneralRequisition.aspx" title="General Requisition" description=""/>
+      <siteMapNode url="" title="-----------------------" description=""/>
+      <!--<siteMapNode url="~/LCManagement/Task/frmAccessoriesReaceive.aspx" title="Accessories Inventory" description=""/>-->
+    </siteMapNode>
+
+
+    <siteMapNode url ="" title="Reports" description="">
+     
+      <siteMapNode url="" title="------------------" description=""/>
+
+        <siteMapNode url="~/Inventory/ReportsUI/RptFabricReceived.aspx" title="Fabric Received Summary" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptFabricReceivedDetails.aspx" title="Fabric Received Details" description=""/>
+        <siteMapNode url="" title="------------------" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptItemOpeningBalance.aspx" title="Item Opening Balance" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptItemRequisition.aspx" title="Item Requisition" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptItemPurchase.aspx" title="Item Purchase" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptItemIssue.aspx" title="Item Issue" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptStockBalance.aspx" title="Item Stock Balance" description=""/>
+        <siteMapNode url="" title="------------------" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptExportChallan.aspx" title="Export Chalan" description=""/>
+        <siteMapNode url="~/Inventory/ReportsUI/RptGeneralChallan.aspx" title="General Chalan" description=""/>
+
+        <siteMapNode url="~/Inventory/ReportsUI/RptChallan.aspx" title="Chalan" description=""/>
+
+      <siteMapNode url="" title="------------------" description=""/>
+    </siteMapNode>
+
+
+  </siteMapNode>
+</siteMap>

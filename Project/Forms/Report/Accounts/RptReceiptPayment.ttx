@@ -1,0 +1,9 @@
+Particulars	String	3500	
+accCode	String	50	
+accHead	String	350	
+currentDebit	Number		
+currentCredit	Number		
+cumulativeDebit	Number		
+cumulativeCredit	Number		
+autoId	Number		
+parentHead	String	350	

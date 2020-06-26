@@ -1,0 +1,44 @@
+Invoice_No	String	30	
+FDBC_No	String	20	
+Realize_Value	Number		
+Purchase_Value	Number		
+Sundy_Value	Number		
+RQ_Value	Number		
+Bank_Charge	Number		
+PC_Value	Number		
+FDBC_Value	Number	
+CD		Number
+File_No	String	30
+FDBP_Intar	Number
+FDBP_Loss	Number
+Buyer	String	300
+FileVal	Number	
+BTB_Per	Number
+PC_Per	Number
+ABP_Acceptance	Number
+Exp_Qty	Number
+Realiz_Amount	Number
+BTB_Value	Number
+ABP_Payment	Number
+Export_Value	Number
+PC_Taken	Number
+Order_Qty	Number
+PC_Realized_Adjust	Number
+PC_Sundry_Adjust	Number
+Total_Sundry	Number
+OverDue		Number
+PC_Intarest	Number
+Central_Fund	Number
+Sourch_Tax	Number
+Courier	Number
+CM_Taken	Number
+CM_Adjust	Number
+CM_Intarest	Number
+CM_Penalty	Number
+LAC_Commission	Number
+FAC_Commission	Number
+Freight_Amount	Number
+Sundry_Adjust_CD	Number
+Sundry_Adjust_RQ	Number
+Sundry_Adjust_COM	Number
+Sundry_Adjust_PC	Number

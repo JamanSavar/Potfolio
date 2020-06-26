@@ -1,0 +1,20 @@
+File_No	String	100	
+Total_Sundry	Number		
+ABP_Payment	Number		
+CD_Amount	Number		
+PC_Adjust	Number		
+Retention_Quata	Number		
+Commission	Number		
+Others	Number	
+BuyerName	String	200	
+Commission	Number
+BTBValue	Number
+BTBOpen	Number
+PCTaken	Number
+PCAdjust	Number
+ABPAcceptance	Number
+FileValue	Number
+BTBPercent	Number
+CMTaken	Number
+CMAdjust	Number
+LC_No	String	300	

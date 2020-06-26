@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="" title="" description="">
+    
+    <siteMapNode url="" title="Options" description="">
+      
+      <siteMapNode url="" title="------------------" description=""/>
+        <siteMapNode url="~/MasterSettings/Options/frmUserChangePassword.aspx" title="Change Password" description=""/>
+      <siteMapNode url="" title="---------------------" description=""/>
+      
+    </siteMapNode>
+    
+    <siteMapNode url="" title="Setting" description="">
+      
+      <siteMapNode url="" title="------------------" description=""/>
+        <siteMapNode url="~/MasterSettings/Marchandiser/frmBuyer.aspx" title="Buyer" description=""/>
+        <siteMapNode url="~/MasterSettings/Marchandiser/frmBuyerDetails.aspx" title="Buyer Details" description=""/>
+        <siteMapNode url="~/MasterSettings/Marchandiser/frmBuyingHouse.aspx" title="Local Agent" description=""/>
+        <siteMapNode url="~/MasterSettings/Marchandiser/frmDepartment.aspx" title="Department" description=""/>
+        <siteMapNode url="~/MasterSettings/Marchandiser/frmInterliningArticle.aspx" title="Article No(Interlining)" description=""/>
+       
+      <siteMapNode url="" title="------------------" description=""/>
+
+      <siteMapNode url="" title="Commercial" description="">
+        <siteMapNode url="~/MasterSettings/Commercial/frmBuyerDetails.aspx" title="Buyer Details" description=""/>
+      </siteMapNode>
+    
+      <siteMapNode url="" title="------------------" description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Accounts" description="">
+      <siteMapNode url="" title="------------------------" description=""/>
+      <siteMapNode url="~/Finance/UI/frmFileStatus.aspx" title="File Status" description=""/>
+      <siteMapNode url="~/Finance/UI/frmCashLCPayment.aspx" title="Cash LC Payment" description=""/>
+      <siteMapNode url="~/Finance/UI/frmPCProposal.aspx" title="PC Proposal" description=""/>
+      <siteMapNode url="~/Finance/UI/frmPCApproval.aspx" title="PC Approval" description=""/>
+      <siteMapNode url="~/Finance/UI/frmPCBankCharge.aspx" title="PC Bank Charge" description=""/>
+      <siteMapNode url="" title="------------------------" description=""/>
+      <siteMapNode url="~/Finance/UI/frmCMProposal.aspx" title="CM Purchase Proposal" description=""/>
+      <siteMapNode url="~/Finance/UI/frmCMApproval.aspx" title="CM Purchase Approval" description=""/>
+      <siteMapNode url="~/Finance/UI/frmCMBankCharge.aspx" title="CM Bank Charge" description=""/>
+      <siteMapNode url="~/Finance/UI/frmRealization.aspx" title="Document Realization" description=""/>
+      <siteMapNode url="~/Finance/UI/frmSundryDistribution.aspx" title="Sundry Distribution" description=""/>
+      <siteMapNode url="" title="------------------------" description=""/>
+    </siteMapNode>
+
+ 
+    <siteMapNode url ="" title="Reports" description="">
+      <siteMapNode url="" title="------------------------" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptFileWisePC.aspx" title="File Wise PC Loan" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptFileWiseCM.aspx" title="File Wise CM Loan" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptFileWiseBTB.aspx" title="File Wise BTB" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptFileWiseABPDetails.aspx" title="File Wise ABP" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptRealization.aspx" title="File Wise Realization" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptFileWiseSundry.aspx" title="File Wise Sundry" description=""/>
+      <siteMapNode url="~/Finance/ReportsUI/RptFileWiseSummary.aspx" title="File Wise Summary" description=""/>
+      <!--<siteMapNode url="~/Finance/ReportsUI/RptCashLC.aspx" title="RptCashLC" description=""/>-->
+      <siteMapNode url="" title="------------------------" description=""/>
+       
+            
+      <siteMapNode url="" title="Commercial" description="">
+            <siteMapNode url="" title="------------------" description=""/>
+            <siteMapNode url="~/Commercial/ReportsUI/RptLCPropasal.aspx" title="LC Proposal" description=""/>
+           
+            <siteMapNode url="" title="------------------" description=""/>
+      </siteMapNode>
+      <siteMapNode url="" title="------------------" description=""/>
+         
+
+    </siteMapNode>
+
+   
+   
+  </siteMapNode>
+</siteMap>

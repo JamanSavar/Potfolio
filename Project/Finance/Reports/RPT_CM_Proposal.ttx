@@ -1,0 +1,22 @@
+LcNo	String	25	
+FDBCNo	String	25	
+FileNo	String	25	
+BuyerName	String	200	
+InvoiceNo	String	25	
+LcValue	Number		
+InvoiceValue	Number		
+BTBOpen	Number		
+PCOpen	Number		
+Commission	Number		
+Tax	Number		
+Charge	Number		
+PCIntarest	Number		
+BTBValue	Number		
+PCValue	Number		
+CM	Number		
+CMDolar	Number		
+CMTK	Number		
+Rate	Number		
+Bank	String	200	
+Addr	String	200	
+Cunt	String	100	

@@ -1,0 +1,10 @@
+Buyer	String	300	
+FileNo	String	50	
+LCValue	Number		
+PCPer	Number		
+PCPropose	Number		
+PCTaken	Number		
+PCValue	Number		
+ShipDat	Date		
+LC_No	String	50	
+

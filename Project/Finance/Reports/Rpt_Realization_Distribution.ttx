@@ -1,0 +1,7 @@
+File_No	String	100	
+Buyer_Name	String	250	
+LC_No	String	50	
+Account_Head	String	100	
+Amount_USD	Number		
+Amount_Taka	Number		
+PC_No		String	50	
